@@ -11,6 +11,8 @@ j.u.c包是java SDK自带的并发包，笔记主要包含两个部分：源码 
 * 线程
 * j.u.c包总览
 * 管程
+* synchronized
+* volitale
 * AQS
 * ReentrantLock
 * Condition
