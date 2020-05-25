@@ -8,19 +8,23 @@ j.u.c包是java SDK自带的并发包，笔记主要包含两个部分：源码 
 
 目前的规划如下：
 
-* 线程
-* j.u.c包总览
-* 管程
-* synchronized
-* volitale
-* AQS
-* ReentrantLock
-* Condition
-* CountDownLatch
-* CyclicBarrier
-* Semaphore
-* ArrayBolckingQueue
-* LinkedBlockingQueue
-* Future
-* Executor
-* ConcurrentHashMap
+* 并发理论基础
+  * 并发问题产生的原因
+  * 并发问题的解决方案
+  * 线程
+  * 管程
+* j.u.c包
+  * 总览
+  * synchronized
+  * volitale
+  * AQS
+  * ReentrantLock
+  * Condition
+  * CountDownLatch
+  * CyclicBarrier
+  * Semaphore
+  * ArrayBolckingQueue
+  * LinkedBlockingQueue
+  * Future
+  * Executor
+  * ConcurrentHashMap
