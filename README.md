@@ -6,6 +6,9 @@ j.u.c包是java SDK自带的并发包，笔记主要包含两个部分：源码 
 
 所以需要有一个总结的过程，将知识变为自己的。
 
+参考资料挺多的，主要推荐下下面两个：
+* 极客时间的一门课程，写的很好，偏实战，推荐把每篇文章的评论都看下。[Java并发编程实战](https://time.geekbang.org/column/intro/100023901)
+* 一个大佬的博客，主要是juc下面各种源码的分析，还有一些其他框架的源码分析。[javadoop](https://www.javadoop.com/)
 目前的规划如下：
 
 * 并发理论基础
@@ -13,10 +16,12 @@ j.u.c包是java SDK自带的并发包，笔记主要包含两个部分：源码 
   * 并发问题的解决方案
   * 线程
   * 管程
+* java同步原语
+  * volatile
+  * synchronized
+  * final
 * j.u.c包
   * 总览
-  * synchronized
-  * volitale
   * AQS
   * ReentrantLock
   * Condition
