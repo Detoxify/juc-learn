@@ -20,7 +20,6 @@ j.u.c包是java SDK自带的并发包，笔记主要包含两个部分：源码 
 * java同步原语
   * synchronized
   * volatile
-  * final
 * j.u.c包
   * 总览
   * AQS
