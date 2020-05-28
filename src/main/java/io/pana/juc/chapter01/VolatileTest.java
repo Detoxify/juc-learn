@@ -1,6 +1,6 @@
 package io.pana.juc.chapter01;
 
-public class Volatile {
+public class VolatileTest {
 
     private int i = 0;
 
@@ -23,7 +23,7 @@ public class Volatile {
     }
 
     public static void main(String[] args) throws Exception{
-        Volatile v = new Volatile();
+        VolatileTest v = new VolatileTest();
         Thread t1 = new Thread(v::writeIValue);
         Thread t2 = new Thread(v::readIValue);
         Thread t3 = new Thread(v::readIValue);
