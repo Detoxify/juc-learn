@@ -157,7 +157,7 @@ public static void main(String[] args) {
 
 Lock.lock()调用的是ReentrantLock内部类的FairLock的方法，而FairLock最终调用的是AQS的acquire，先贴一下UML图。
 
-![](/Users/pana/Desktop/img/fairlock.png)
+![fairlock](../img/fairlock.png)
 
 AQS中的acquire到底做了什么？
 
