@@ -1,6 +1,6 @@
 # CountDownLatch
 
-CountDownLatch是AQS中比较常用的类，可以多个线程共享使用，规定一个值，大家一起去countDown。latch是门闩的意思，所以CountDownLatch也的作业也和门闩类似。
+CountDownLatch是AQS中比较常用的类，可以多个线程共享使用，规定一个值，大家一起去countDown。latch是门闩的意思，所以CountDownLatch的作用也和门闩类似。
 
 先来看下Doug Lea在CountDownLatch给我们提供的例子：
 
