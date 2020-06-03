@@ -1,10 +1,12 @@
-# AQS
+# AQS-1
 
 AQS是AbstractQueuedSynchronized的缩写，翻译过来是**抽象排队同步器**，是java并发包的基础，ReentrantLock、CountDownLatch、Semphore等都是基于AQS实现的。
 
 AQS也依据管程模型来的，所以再进行源码分析之前，请现在大脑里回想一下MESA管程模型吧。
 
 首先根据JDK源码中的类介绍，来了解下AQS到底是干什么用的。
+
+本篇文章通过ReentrantLock的lock和unlock来分析源码。
 
 ### AQS Java doc
 
