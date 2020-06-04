@@ -64,7 +64,7 @@ private static final class Sync extends AbstractQueuedSynchronizer {
     Sync(int count) {
         setState(count);
     }
-		// 读AQS的state
+    // 读AQS的state
     int getCount() {
         return getState();
     }

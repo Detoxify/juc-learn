@@ -25,9 +25,10 @@ j.u.c包是java SDK自带的并发包，笔记主要包含两个部分：源码 
   * [AQS-1 ReentrantLock](/chapter03/AQS-1.md)
   * [AQS-2 Condition](/chapter03/AQS-2.md)
   * [CountDownLatch](/chapter03/CountDownLatch.md)
-  * CyclicBarrier
-  * Semaphore
-  * ArrayBolckingQueue
+  * [CyclicBarrier](/chapter03/CyclicBarrier.md)
+  * [Semaphore](/chapter03/Semaphore.md)
+  * BlockingQueue
+  * ArrayBlockingQueue
   * LinkedBlockingQueue
   * Future
   * Executor
