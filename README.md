@@ -20,7 +20,7 @@ j.u.c包是java SDK自带的并发包，笔记主要包含两个部分：源码 
 * java同步原语
   * [synchronized](/chapter02/synchronized.md)
   * [volatile](/chapter02/volatile.md)
-* j.u.c包
+* j.u.c包基础
   * [总览]
   * [AQS-1 ReentrantLock](/chapter03/AQS-1.md)
   * [AQS-2 Condition](/chapter03/AQS-2.md)
@@ -31,3 +31,15 @@ j.u.c包是java SDK自带的并发包，笔记主要包含两个部分：源码 
   * [线程池](/chapter04/线程池.md)
   * [FutureTask](/chapter04/FutureTask.md)
   * ConcurrentHashMap
+* j.u.c包使用
+  * ReentrantReadWriteLock
+  * StampedLock
+  * CopyOnWriteArrayList
+  * ForkJoinPool
+  * CompletableFuture
+  * CompletionService
+* 并发编程案例分析
+  * Guava RateLimiter
+  * Netty
+  * Disruptor
+  * HiKariCP
