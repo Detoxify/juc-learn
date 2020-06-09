@@ -27,9 +27,7 @@ j.u.c包是java SDK自带的并发包，笔记主要包含两个部分：源码 
   * [CountDownLatch](/chapter03/CountDownLatch.md)
   * [CyclicBarrier](/chapter03/CyclicBarrier.md)
   * [Semaphore](/chapter03/Semaphore.md)
-  * BlockingQueue
-  * ArrayBlockingQueue
-  * LinkedBlockingQueue
-  * Future
-  * Executor
+  * [BlockingQueue](/chapter04/BlockingQueue.md)
+  * [线程池](/chapter04/线程池.md)
+  * [FutureTask](/chapter04/FutureTask.md)
   * ConcurrentHashMap

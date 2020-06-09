@@ -6,8 +6,7 @@ public class SyncTest {
 
     public final Object lock = new Object();
 
-    public void add(){
-        lock.notifyAll();
+    private void add(){
         synchronized (lock){
             int i = 0;
             while(i++ < 10000){
@@ -16,7 +15,7 @@ public class SyncTest {
         }
     }
 
-    public void getCount(){
+    private void getCount(){
         System.out.println(count);
     }
 
